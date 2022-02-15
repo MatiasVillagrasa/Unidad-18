@@ -1,0 +1,214 @@
+/* --------------------------------------------------------- ETIQUETAS ----------------------------------------------------------- */
+/* html{
+  height: 100%;
+} */
+
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #ffffff;
+    background-repeat:no-repeat;
+    background: linear-gradient(270deg,#ffffff 0%, #8c8c8c 80%);
+    background: -webkit-linear-gradient(270deg,#ffffff 0%, #8c8c8c 80%);
+    background: -moz-linear-gradient(270deg,#ffffff 0%, #8c8c8c 80%);
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  nav{
+    width: 100%;
+    display: flex;
+    text-align: center;
+  }
+  
+  nav ul{
+    list-style: none;
+    width: 100%;
+  }
+  
+  nav ul li{
+    display: inline-block;
+    width: 15%;
+  }
+  
+  nav ul li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    transition: 1s;
+  }
+  
+  nav ul li a:hover {
+    font-size: 24px;
+  }
+  
+  /* nav ul li a.activo{
+    font-style: italic;
+  } */
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    /* background-color: white; */
+    justify-content: center;
+  }
+  
+  main h1{
+    font-size: 60px;
+    line-height: 62px;
+    font-weight: 800;
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  main p{
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 500;
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+    text-align: justify;
+    margin: 3em;
+  }
+  
+  .presentacion h1{
+    font-size: 50px;
+    line-height: 52px;
+    margin-block-start: 4px;
+    margin-block-end: 4px;
+    margin-inline-start: 1em;
+    margin-inline-end: 0px;
+    overflow: hidden;
+    width: fit-content;
+  }
+  
+  .presentacion p{
+    font-size: 22px;
+    line-height: 28px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 4em;
+    margin-inline-end: 0px;
+    overflow: hidden;
+    width: fit-content;
+  }
+  
+  .presentacionLogo img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 1000px;
+  }
+  
+  footer p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 4px;
+    margin-inline-start: 1em;
+    margin-inline-end: 0px;
+  }
+  
+  /* --------------------------------------------------------- CLASES ----------------------------------------------------------- */
+  
+  .DatosContacto{
+    color: white;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 16px;
+  }
+  
+  .copyright{
+    padding-top: 6em;
+  }
+  
+  .presentacion{
+    display: flex;
+    flex-direction: column;
+    padding: 6em 0px 6em 0px;
+  }
+  
+  .presentacionLogo{
+    display: flex;
+  }
+  
+  .tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tarjeta{
+    width: 35%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .tarjeta h1{
+    font-size: 26px;
+  }
+  
+  .tarjeta p{
+    font-size: 18px;
+    margin: 0px;
+    line-height: 22px;
+    font-weight: 200;
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
+    text-align: justify;
+  }
+  
+  .contenedorContacto{
+    display: inline-block;
+    justify-content: flex-start;
+    margin-left: 3em;
+    width: 40%;
+  }
+  
+  .contenedorContacto form label{
+    display: inline-block;
+    vertical-align: top;
+    width: 18%;
+  }
+  
+  .contenedorContacto form input,
+  .contenedorContacto form textarea{
+    border-radius: 5px;
+    width: 50%;
+  }
+  
+  .contenedorContacto form textarea{
+    resize: none;
+    height: 15em;
+  }
+  
+  .contenedorContacto form input[type="submit"]{
+    border-radius: 5px;
+    width: auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+  }
